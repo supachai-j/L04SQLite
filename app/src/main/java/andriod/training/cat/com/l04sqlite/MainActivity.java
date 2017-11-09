@@ -66,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Button Show
+        Button bt_show_list = (Button) findViewById(R.id.lo_bt_show_list);
+        bt_show_list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                gotoPage(ShowListActivity.class, true);
+
+            }
+        });
 
     }
     public void gotoPage(Class dest_class, boolean transition) {

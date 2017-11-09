@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/lo_imv_icon"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="@null"
+        android:src="@drawable/im_unknow"/>
+
+    <TextView
+        android:id="@+id/lo_tv_firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/lo_imv_icon"
+        android:layout_toEndOf="@id/lo_imv_icon"
+        android:text="@string/strXML_data_empty"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lo_tv_secondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:maxLines="1"
+        android:text="@string/strXML_data_empty"
+        android:textSize="16sp"
+        android:layout_below="@+id/lo_tv_firstLine"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/lo_imv_icon" />
+
+</RelativeLayout>

@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.ArrayList;
+
 /**
  * Created by LqLconf on 11/9/2017.
  */
@@ -92,5 +94,24 @@ public class DBHelper extends SQLiteOpenHelper {
             e.printStackTrace();
         }
     }
+    ArrayList<QueryObject> selectMessagesToList () {
+        ArrayList<QueryObject> rows = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String selectQuery = "SELECT * FROM " + TABLE_MESSAGES + " ORDER BY " + MESSAGE_TIMESTAMP + " ASC" ;
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        if (cursor.moveToFirst()) {
+            do {
+                try {
+                    QueryObject i = new QueryObject(cursor.getString(0), cursor.getString(1), cursor.getString(2), cursor.getString(3), cursor.getString(4));
+                    rows.add(i);
+                } catch (Throwable e) {
+                    e.printStackTrace();
+                }
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        return rows;
+    }
+
 
 }

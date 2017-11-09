@@ -29,5 +29,11 @@
         android:textAllCaps="false"
         android:layout_weight="1"
         android:text="@string/strXML_show_button"/>
-
+    <Button
+        android:id="@+id/lo_bt_show_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_weight="2"
+        android:text="@string/strXML_show_list_button"/>
 </LinearLayout>

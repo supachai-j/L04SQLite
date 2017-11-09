@@ -4,6 +4,7 @@
     <string name="strXML_insert_button">Insert</string>
     <string name="strXML_show_button">Show</string>
     <string name="strXML_data_empty">Empty</string>
+    <string name="strXML_show_list_button">Show List</string>
 
     <string-array name="strXML_titles_insert">
         <item>Vader</item>
