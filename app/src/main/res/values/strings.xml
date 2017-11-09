@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">L04SQLite</string>
+    <string name="strXML_clear_button">Clear</string>
+    <string name="strXML_insert_button">Insert</string>
+    <string name="strXML_show_button">Show</string>
+    <string name="strXML_data_empty">Empty</string>
+
+    <string-array name="strXML_titles_insert">
+        <item>Vader</item>
+        <item>Skywalker</item>
+        <item>Solo</item>
+        <item>Organa</item>
+        <item>Kenobi</item>
+        <item>Chewbacca</item>
+        <item>Yoda</item>
+    </string-array>
+    <string-array name="strXML_subtitles_insert">
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="strXML_messages_insert">
+        <item>Act your age</item>
+        <item>เลิกทำตัวเป็นเด็กเสียที</item>
+        <item>Alive as well</item>
+        <item>เป็นสุขสบายดี</item>
+        <item>All systems go</item>
+        <item>ทุกอย่างพร้อม</item>
+        <item>Anything goes</item>
+        <item>อะไรก็ได้, ไม่มีกฎเกณฑ์</item>
+        <item>Ain’t it a shame?</item>
+        <item>มันน่าเสียดายไหมล่ะ</item>
+        <item>Back to square one!</item>
+        <item>กลับไปตั้งต้นใหม่</item>
+        <item>Bye for now</item>
+        <item>แค่นี้ก่อนนะ</item>
+        <item>And away we go!</item>
+        <item>ไปกันได้แล้ว</item>
+        <item>Big deal</item>
+        <item>ไม่เห็นมีอะไรเลย</item>
+        <item>Beats me</item>
+        <item>ไม่รู้เหมือนกัน</item>
+        <item>Break a leg</item>
+        <item>ขอให้โชคดี</item>
+        <item>That’s the way it is</item>
+        <item>มันก็เป็นอย่างนี้แหละ</item>
+        <item>Come rain or shine</item>
+        <item>ไม่ว่าฝนจะตกหรือแดดจะออก</item>
+        <item>Can you top that?</item>
+        <item>ทำได้อย่างไรน่ะ</item>
+        <item>Be my guest</item>
+        <item>อยากทำอะไรก็ทำ</item>
+        <item>Can’t be bad</item>
+        <item>ไม่เลวเลย</item>
+        <item>Could I have that in writing?</item>
+        <item>ขอเป็นลายลักษณ์อักษรได้ไหม</item>
+    </string-array>
+
+</resources>
