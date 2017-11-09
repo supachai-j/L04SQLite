@@ -1,2 +1,2 @@
 # L04SQLite
-โปรแกรม Crate, Insert, Drop Table บน SQLite
+โปรแกรม Create, Insert, Drop Table บน SQLite
